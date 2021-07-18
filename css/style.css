@@ -1,5 +1,12 @@
 body {
-  background-color: pink;
-  color: red;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #fff;
+}
+
+body {
+  color: pink;
 }
 /*# sourceMappingURL=style.css.map */
