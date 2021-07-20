@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar {
   background-color: #fff;
 }
@@ -28,6 +32,10 @@ body {
           justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.navbar-top__menu-button {
+  display: none;
 }
 
 .navbar__search {
@@ -497,6 +505,9 @@ template {
   .container {
     max-width: 760px;
   }
+  .logo {
+    width: 132px;
+  }
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -516,10 +527,46 @@ template {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 600px;
+    max-width: 576px;
+    width: 92%;
   }
   .search__input {
     width: 340px;
+  }
+  .navbar-menu, .navbar__search, .navbar__user {
+    display: none;
+  }
+  .navbar-top_menu-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background-color: #333333;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 99px;
   }
 }
 /*# sourceMappingURL=style.css.map */
