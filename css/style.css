@@ -541,7 +541,7 @@ template {
   }
   .navbar-menu {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
   }
   .navbar-menu__container {
     max-width: 673px;
@@ -592,6 +592,7 @@ template {
   }
   .navbar .logo {
     width: 99px;
+    margin-bottom: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
