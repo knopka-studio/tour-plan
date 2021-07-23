@@ -112,7 +112,6 @@ img {
   border: none;
   font-size: 12px;
   line-height: 15px;
-  text-align: top;
   color: #333333;
   padding-left: 23px;
   padding-right: 75px;
@@ -675,7 +674,7 @@ template {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 685px) {
   .navbar-menu, .navbar__search, .navbar__user {
     display: none;
   }
