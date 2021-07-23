@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -612,7 +611,7 @@ template {
   line-height: 10px;
 }
 
-.hotel-info__rating-сounter {
+.hotel-info__rating-counter {
   margin-right: -5px;
   font-size: 14px;
   line-height: 18px;
