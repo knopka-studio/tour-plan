@@ -24,7 +24,7 @@
       text-transform: uppercase
       font-size: 24px
       line-height: 30px
-      margin-right: 14px
+      margin-right: 15px
     &__offer
       font-size: 10px
       line-height: 13px
@@ -62,8 +62,9 @@
     justify-content: start
 .swiper
   &-container
+    width: 100%
     max-width: 728px
-    max-height: 450px
+    height: 450px
     position: relative
     border-radius: 8px
     &:after
@@ -75,11 +76,13 @@
       bottom: 0
       left: 0
       right: 0
-      background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) -115.67%, rgba(255, 255, 255, 0.128) -15.67%)
-      z-index: 9
+      background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%)
+      z-index: 8
   &-image
-    max-width: 100%
+    width: 100%
+    height: 100%
 .slider
+  max-width: 100%
   &-button
     position: absolute
     top: 50%
