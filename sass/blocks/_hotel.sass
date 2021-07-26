@@ -59,10 +59,15 @@
 .hotel
   &-grid
     display: flex
-    justify-content: start
+    justify-content: space-between
+    align-items: start
+    flex-wrap: wrap
+  &-right
+    display: flex
+    flex-direction: column
+    align-content: space-between
 .swiper
   &-container
-    width: 100%
     max-width: 728px
     height: 450px
     position: relative
@@ -102,3 +107,81 @@
     &__prev
       left: 18px
       background-image: url(../images/arrow-prev.svg)
+.booking
+  display: flex
+  width: 350px
+  height: 210px
+  padding: 29px 29px 26px 26px
+  background-color: $dark
+  border-radius: 8px
+  margin-bottom: 30px
+  &__info
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-content: space-between
+    color: $white
+    font-family: "Nunito", sans-serif
+    max-width: 100%
+  &-price
+    display: flex
+    flex-flow: column wrap
+  &__start
+    font-size: 10px
+    line-height: 14px
+  &__pricetag
+    font-size: 24px
+    line-height: 33px
+    font-weight: 800
+  &__per-room
+    font-size: 12px
+    line-height: 11px
+  &__icon
+    width: 14px
+    height: 14px
+  &__text
+    display: flex
+    justify-content: space-between
+    min-width: 80px
+    margin-top: 5px
+    font-size: 12px
+    line-height: 16px
+    margin-bottom: 8px
+  &__description
+    font-size: 12px
+    line-height: 16px
+  &__button
+    flex-basis: 100%
+    width: 295px
+    height: 45px
+    color: $white
+    background-color: $primary
+    border: none
+    border-radius: 4px
+    cursor: pointer
+    font-size: 14px
+    line-height: 19px
+.call
+  &-center
+    width: 100%
+    display: flex
+    justify-content: space-between
+    font-size: 18px
+    line-height: 25px
+    margin-top: -10px
+    font-weight: 600
+    &__number
+      text-decoration: none
+      color: $white
+      &:hover, &:active, &:visited
+        color: $white
+    &__icon
+      width: 14px
+      height: 14px
+      margin-right: 7px
+      margin-bottom: -4px
+.map
+  width: 347px
+  height: 210px
+  border-radius: 8px
+  overflow: hidden

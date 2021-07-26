@@ -1,6 +1,10 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
+  .swiper
+    &-container
+      max-width: 600px
+
 @media (max-width: 992px)
   .container
     width: 92%
@@ -17,6 +21,27 @@
       &__link
         font-size: 12px
         line-height: 15px
+  .swiper
+    &-container
+      max-width: 750px
+  .hotel
+    &-right
+      flex-direction: row
+      padding-top: 30px
+      flex-wrap: wrap
+      width: 100%
+      justify-content: space-between
+    &-grid
+      justify-content: center
+      padding-bottom: 60px
+  .booking
+    margin-bottom: 0px
+    width: 340px
+    padding: 29px 22px 26px 23px
+    flex-shrink: 2
+  .map
+    width: 340px
+    flex-shrink: 2
 
 @media (max-width: 768px)
   .container
@@ -35,7 +60,16 @@
       padding-bottom: 22px
       &__container
         max-width: 673px
-
+  .swiper
+    &-container
+      max-width: 728px
+@media (max-width: 750px)
+  .booking
+    width: 100%
+    margin-right: 0px
+    margin-bottom: 20px
+  .map
+    width: 100% !important
 @media (max-width: 685px)
   .navbar
     &-menu, &__search, &__user
@@ -104,6 +138,8 @@
         width: 98%
       &__name
         white-space: nowrap
+    &-right
+      padding-top: 20px
   .swiper
     &-container
       height: 179px
@@ -117,3 +153,6 @@
       &__prev
         padding: auto
         left: 7px
+  .call
+    &-center
+      margin-right: 4px
