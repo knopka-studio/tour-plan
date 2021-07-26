@@ -687,7 +687,6 @@ template {
 }
 
 .slider-button__prev {
-  padding: auto;
   left: 18px;
   background-image: url(../images/arrow-prev.svg);
 }
@@ -836,6 +835,18 @@ template {
   }
   .swiper-container {
     height: 179px;
+  }
+  .slider-button {
+    width: 12px;
+    height: 12px;
+    background-size: 7px;
+  }
+  .slider-button__next {
+    right: 7px;
+  }
+  .slider-button__prev {
+    padding: auto;
+    left: 7px;
   }
 }
 /*# sourceMappingURL=style.css.map */
