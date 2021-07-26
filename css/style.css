@@ -681,7 +681,7 @@ template {
   max-width: 100%;
 }
 
-.slider-button {
+.slider__button {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -697,12 +697,12 @@ template {
   background-color: transparent;
 }
 
-.slider-button__next {
+.slider__button-next {
   right: 18px;
   background-image: url(../images/arrow-next.svg);
 }
 
-.slider-button__prev {
+.slider__button-prev {
   left: 18px;
   background-image: url(../images/arrow-prev.svg);
 }
@@ -1039,15 +1039,15 @@ template {
   .swiper-container {
     height: 179px;
   }
-  .slider-button {
+  .slider__button {
     width: 12px;
     height: 12px;
     background-size: 7px;
   }
-  .slider-button__next {
+  .slider__button-next {
     right: 7px;
   }
-  .slider-button__prev {
+  .slider__button-prev {
     padding: auto;
     left: 7px;
   }
