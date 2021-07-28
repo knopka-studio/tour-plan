@@ -156,52 +156,49 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid">
-          <div class="slider">
-            <!-- Slider main container -->
-            <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-image"
-                    src="images/hotel-image-1.jpg"
-                    alt="Hotel image"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-image"
-                    src="images/hotel-image-2.jpg"
-                    alt="Hotel image"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-image"
-                    src="images/hotel-image-3.jpg"
-                    alt="Hotel image"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-image"
-                    src="images/hotel-image-4.jpg"
-                    alt="Hotel image"
-                  />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    class="swiper-image"
-                    src="images/hotel-image-5.jpg"
-                    alt="Hotel image"
-                  />
-                </div>
+          <div class="swiper-container hotel-slider hotel__slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  class="hotel-slider__image"
+                  src="images/hotel-image-1.jpg"
+                  alt="Hotel image"
+                />
               </div>
-              <!-- If we need navigation buttons -->
-              <div class="slider__button slider__button-prev"></div>
-              <div class="slider__button slider__button-next"></div>
+              <div class="swiper-slide">
+                <img
+                  class="hotel-slider__image"
+                  src="images/hotel-image-2.jpg"
+                  alt="Hotel image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="hotel-slider__image"
+                  src="images/hotel-image-3.jpg"
+                  alt="Hotel image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="hotel-slider__image"
+                  src="images/hotel-image-4.jpg"
+                  alt="Hotel image"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="hotel-slider__image"
+                  src="images/hotel-image-5.jpg"
+                  alt="Hotel image"
+                />
+              </div>
             </div>
+            <!-- If we need navigation buttons -->
+            <div class="hotel-slider__button hotel-slider__button-prev"></div>
+            <div class="hotel-slider__button hotel-slider__button-next"></div>
           </div>
           <!-- /.slider -->
           <div class="hotel-right">
@@ -252,7 +249,7 @@
             <div class="map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.013081524365!2d79.79838251534235!3d7.5735517945383934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2c96110de8289%3A0x3fd7668bc2d85eb9!2sGrand%20Hilton%20Hotel!5e0!3m2!1sru!2skz!4v1627326721623!5m2!1sru!2skz"
-                width="100%"
+                width="700"
                 height="210"
                 style="border: 0"
                 allowfullscreen=""
@@ -286,6 +283,79 @@
       <!-- /.newsletter-container -->
     </section>
     <!-- /.newsletter -->
+    <section class="reviews">
+      <div class="reviews-container">
+        <h2 class="reviews-title">What people think about us</h2>
+        <div class="swiper-container reviews-slider">
+          <div class="swiper-wrapper reviews-slider__wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="images/reviews-avatar.jpg"
+                    alt="Photo: Megan Fox"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__name">Megan Fox</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="grade">
+                    <div class="reviews-slider__stars">
+                      <img
+                        class="star reviews-slider__star"
+                        src="images/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        class="star reviews-slider__star"
+                        src="images/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        class="star reviews-slider__star"
+                        src="images/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        class="star reviews-slider__star"
+                        src="images/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        class="star reviews-slider__star"
+                        src="images/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                    <!-- /.reviews-slider__star -->
+                  </div>
+                  <!-- /.grade -->
+                </div>
+                <!-- reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was
+                  good and polite. They welcome us very well. Issue was only
+                  that Lift was not in working and we were allotted to 3rd floor
+                  and amenities articles were in corner of gallery which were
+                  giving bad feeling. Breakfast was good and support of the
+                  staff was also very nice. Location is not good as per
+                  atmosphere, it is very nearby most of the popular places but
+                  self location in a narrow street is not good. Overall it was a
+                  good experience and could recommend.
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+          <div class="reviews-slider__button reviews-slider__button-prev"></div>
+          <div class="reviews-slider__button reviews-slider__button-next"></div>
+        </div>
+        <!-- .reviews-slider -->
+      </div>
+      <!-- ./reviews-container -->
+    </section>
+    <!-- /.reviews -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
