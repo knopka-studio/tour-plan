@@ -7,14 +7,18 @@
   .reviews
     &-container
       max-width: 950px
+  .activities
+    &-wrapper
+      &__item
+        width: 230px
 @media (max-width: 992px)
   .container
     width: 92%
     max-width: 750px
   .navbar
     &-top
-      padding-top: 30px
-      padding-bottom: 30px
+      padding-top: 28px
+      padding-bottom: 31px
     &__search
       margin-left: auto
     &-menu
@@ -39,11 +43,14 @@
     margin-bottom: 0px
     width: 340px
     padding: 29px 22px 26px 23px
-    flex-shrink: 2
   .map
     width: 340px
-    flex-shrink: 2
-
+  .activities
+    &-wrapper
+      &__item
+        width: 339px
+        &:nth-of-type(-n+2)
+          margin-bottom: 20px
 @media (max-width: 768px)
   .container
     max-width: 700px
@@ -71,8 +78,9 @@
       width: 94%
       max-width: 700px
   .reviews
+    padding-bottom: 60px
     &-container
-      width: 92%
+      width: 94%
       max-width: 700px
     &-title
       font-size: 30px
@@ -88,7 +96,11 @@
           content: none
       &__button
         top: 46%
+  .activities
+    padding-bottom: 70px
 @media (max-width: 750px)
+  .container
+    max-width: 570px
   .booking
     width: 100%
     margin-right: 0px
@@ -103,7 +115,10 @@
           left: 30%
         &-next
           right: 30%
-
+  .activities
+    &-wrapper
+      &__item
+        width: 49%
 @media (max-width: 685px)
   .navbar
     &-menu, &__search, &__user
@@ -160,6 +175,15 @@
       text-align: center
       max-width: 70%
       margin-bottom: 42px
+  .activities
+    &-wrapper
+      &__item
+        width: 100%
+        margin-bottom: 20px
+    &-title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
 @media ( max-width: 400px)
   .hotel
     &-info
@@ -178,9 +202,10 @@
     &-slider
       height: 200px
   .reviews
+    padding-bottom: 50px
     &-slider
       &__item
-        padding: 0 27px 36px 32px
+        padding: 0 30px 36px 30px
       &__text
         text-align: left
 
@@ -235,3 +260,6 @@
       font-size: 14px
       line-height: 18px
       padding-left: 20px
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
